@@ -24,27 +24,7 @@ const popularProducts = [
 		product_price: '$899.00',
 		product_stock: 56
 	},
-	{
-		id: '9234',
-		product_name: 'LG Flex Canvas',
-		product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
-		product_price: '$499.00',
-		product_stock: 98
-	},
-	{
-		id: '4314',
-		product_name: 'Apple Magic Touchpad',
-		product_thumbnail: 'https://source.unsplash.com/100x100?touchpad',
-		product_price: '$699.00',
-		product_stock: 0
-	},
-	{
-		id: '4342',
-		product_name: 'Nothing Earbuds One',
-		product_thumbnail: 'https://source.unsplash.com/100x100?earphone',
-		product_price: '$399.00',
-		product_stock: 453
-	}
+	
 ]
 
 function PopularProducts() {

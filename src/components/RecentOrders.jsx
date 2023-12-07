@@ -1,7 +1,7 @@
 import React from 'react'
 import { format } from 'date-fns'
 import { Link } from 'react-router-dom'
-import { getOrderStatus } from '../lib/Utils'
+import { getOrderStatus }  from "../lib/Utils"
 
 const recentOrderData = [
 	{
@@ -34,36 +34,6 @@ const recentOrderData = [
 		current_order_status: 'SHIPPED',
 		shipment_address: 'Westminster, CA 92683'
 	},
-	{
-		id: '3',
-		product_id: '9854',
-		customer_id: '87832',
-		customer_name: 'Luke Parkin',
-		order_date: '2022-05-16T12:40:00',
-		order_total: '$334.50',
-		current_order_status: 'SHIPPED',
-		shipment_address: 'San Mateo, CA 94403'
-	},
-	{
-		id: '4',
-		product_id: '8763',
-		customer_id: '09832',
-		customer_name: 'Anthony Fry',
-		order_date: '2022-05-14T03:24:00',
-		order_total: '$876.00',
-		current_order_status: 'OUT_FOR_DELIVERY',
-		shipment_address: 'San Mateo, CA 94403'
-	},
-	{
-		id: '5',
-		product_id: '5627',
-		customer_id: '97632',
-		customer_name: 'Ryan Carroll',
-		order_date: '2022-05-14T05:24:00',
-		order_total: '$96.35',
-		current_order_status: 'DELIVERED',
-		shipment_address: 'Los Angeles, CA 90017'
-	}
 ]
 
 export default function RecentOrders() {
